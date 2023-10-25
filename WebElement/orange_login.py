@@ -80,12 +80,19 @@ def login_testCase2_invalid():
         # Login Action
         # Find username
         username_field = driver.find_element(By.NAME, "username")
+
+        # Clear username
+        username_field.clear()
+
         # Type username value
         username_field.send_keys("Admin invalid")
         time.sleep(3)
 
         # find password
         password_field = driver.find_element(By.NAME, "password")
+
+        password_field.clear()
+
         # type password value
         password_field.send_keys("admin1231212")
         time.sleep(3)
