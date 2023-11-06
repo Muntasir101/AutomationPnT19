@@ -9,7 +9,7 @@ def login_testCase1_valid():
         driver = webdriver.Firefox()
         print("Launching Firefox Successfully")
 
-        # Open Google
+        # Open Orange
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         time.sleep(5)
 

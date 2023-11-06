@@ -1,0 +1,10 @@
+Run command:
+pytest : means run all pytest files and functions
+
+pytest filename : run specific file with its functions
+ example: pytest .\PyTest_demo\test_demoPy2.py
+
+pytest filename::function name: run specific functions
+ example: pytest .\PyTest_demo\test_demoPy2.py::test_testcase6
+
+pytest -v -s : print functions name and print statement
